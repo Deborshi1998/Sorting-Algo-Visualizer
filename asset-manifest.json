@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sorting-Algo-Visualizer/static/css/main.f093821f.css",
+    "main.js": "/Sorting-Algo-Visualizer/static/js/main.23e649c5.js",
+    "static/js/787.37ca354d.chunk.js": "/Sorting-Algo-Visualizer/static/js/787.37ca354d.chunk.js",
+    "index.html": "/Sorting-Algo-Visualizer/index.html",
+    "main.f093821f.css.map": "/Sorting-Algo-Visualizer/static/css/main.f093821f.css.map",
+    "main.23e649c5.js.map": "/Sorting-Algo-Visualizer/static/js/main.23e649c5.js.map",
+    "787.37ca354d.chunk.js.map": "/Sorting-Algo-Visualizer/static/js/787.37ca354d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f093821f.css",
+    "static/js/main.23e649c5.js"
+  ]
+}
