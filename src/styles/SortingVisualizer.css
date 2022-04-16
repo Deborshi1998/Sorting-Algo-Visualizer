@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,600;1,700&display=swap');
+
+/* CSS */
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Roboto Mono', monospace;
+    height: 32px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+    margin-right: 0%;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.button-30:disabled,
+.button-30[disabled] {
+    background-color: rgb(129, 132, 135);
+    transform: translateY(0px);
+}
+
+#sort-chart {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    height: 400px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    background: #6a6a8d;
+    outline: none;
+    opacity: 0.7;
+    direction: rtl;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #080e2c;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar-logo {
+    margin-left: 2%;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    font-size: 20pt;
+    margin-top: 8px;
+    text-decoration: underline;
+    margin-bottom: 1%;
+}
+
+li {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 0%;
+}
+
+label {
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+hr {
+    margin-top: 0%;
+    height: 5px;
+    background-color: #111;
+    margin-bottom: 0%;
+    border: none;
+}
+
+.about {
+    background-color: #192a56;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.heading {
+    width: max-content;
+    height: max-content;
+    background-color: #415485;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px orange;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+.about-algo {
+    margin-left: 10%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.about-algo h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    text-align: start;
+}
+
+.about-algo p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: aliceblue;
+    font-size: large;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+}
+
+.about-algo h4 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    text-align: start;
+}
+
+img {
+    width: max-content;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+select {
+    background-color: aliceblue;
+    height: fit-content;
+    width: fit-content;
+    font-size: 18px;
+    padding: 2px;
+    font-family: 'Roboto Mono', monospace;
+}
